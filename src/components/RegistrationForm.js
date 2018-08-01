@@ -1,14 +1,15 @@
 import React from 'react';
 
-export class RegistrationForm extends React.Component {
+class RegistrationForm extends React.Component {
   render() {
-    return (
-      <div>
+    return(
       <form>
-      <input type="text"></input>
-      <input type="password"></input>
+      <input type="text" />
+      <input type="password" />
       <button type="submit">Submit</button>
       </form>
     )
   }
 }
+
+export default RegistrationForm
